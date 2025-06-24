@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: estateelite
+    env: python
+    plan: free
+    buildCommand: ""
+    startCommand: "python app.py"
