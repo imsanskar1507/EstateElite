@@ -234,3 +234,6 @@ def admin_panel():
 
     all_props = property_db.all()
     return render_template('admin_panel.html', properties=all_props)
+
+if __name__ == '__main__':
+    app.run(host='0.0.0.0', port=10000)
